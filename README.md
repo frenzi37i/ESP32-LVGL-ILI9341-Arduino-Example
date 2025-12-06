@@ -10,6 +10,9 @@ LVGL's built-in ILI9341/TFT_eSPI and touch drivers are intentionally not used du
 
 A custom display driver and input driver are implemented instead.
 
+The minimal implementation is in /LVGL_example
+An implementation with WiFi and FreeRtos is also provided in /LVGL_FRTOS_WIFI (needed to setup your wifi SSID and Password)
+
 ## 📌 Environment
 
 | Component | Version / Notes |
